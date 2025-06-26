@@ -17,7 +17,7 @@ const Navigation = ({ setView, currentView, isMobileOpen, closeSidebar }) => {
         <div className="fixed inset-0 z-30 bg-black bg-opacity-40 md:hidden">
           <div className="w-64 h-full bg-white shadow-lg p-6 absolute left-0 top-0 z-40">
             <div className="flex justify-between items-center mb-6">
-              <p className="text-lg font-extrabold text-gray-800">CALENDAR</p>
+              {/* <p className="text-lg font-extrabold text-gray-800">CALENDAR</p> */}
               <button onClick={closeSidebar} className="text-gray-700 hover:text-red-600">
                 <CloseIcon />
               </button>
